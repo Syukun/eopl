@@ -17,3 +17,4 @@
 
 ; test
 (define lst_t1 '(a b c))
+(nth-element-modified lst_t1 2 lst_t1 2)
