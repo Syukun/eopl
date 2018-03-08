@@ -1,0 +1,7 @@
+1.If e is Identifier then #"(" equals #")" which is 0;
+2.If e is (lambda (Identifier,LcExp))
+  if LcExp has n "(" and ")"
+  then e has n+2 "(" and ")"
+3.If e is shape as (LcExp1 LcExp2)
+  if #"(" and #")" of LcExp1 is n,and #"(" and #")" of LcExp2 is m
+  then e has n+m+1 "(" and ")"
