@@ -1,1 +1,8 @@
 I don't know what does this question mean.
+(define nth-element
+  (lambda (lst n)
+    (if(zero? n) (car lst)
+      (if(null? lst)
+        (report-list-too-short n)
+        (nth-element (cdr lst) (- n 1)))))
+(nth-element '() 0) will return empty-list dont have car lst error
