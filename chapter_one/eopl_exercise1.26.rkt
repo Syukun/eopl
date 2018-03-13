@@ -1,7 +1,8 @@
 #lang eopl
 
 ; Exercise 1.26
-; up : List -> List
+; ListOrNot ::= ListOf(SchemeVal) | Int | Symbol
+; up : ListOf(ListOrNot) -> ListOf(SchemeVal)
 ; usage : removes a pair of parentheses from each top-level element of lst.
 ;         If a top-level element is not a list, it is included in the result, as is.
 ;         The value of (up (down lst)) is equivalent to lst, but (down (up lst)) is not necessarily lst.
