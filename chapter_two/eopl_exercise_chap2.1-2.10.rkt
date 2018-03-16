@@ -24,7 +24,7 @@
 ; Exercise 2.3
 ; Diff-tree ::= (one) | (diff Diff-tree Diff-tree)
 ; 1. because if the value is v ,
-;    then the first value is v , the value of second parameter can be one
+;    then the first value is v , the value of second parameter can be ゼロ
 ; 2
 (define zero-diff
   (lambda()
