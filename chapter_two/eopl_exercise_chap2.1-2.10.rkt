@@ -54,10 +54,10 @@
 ;Exercise 2.4
 ; constructor:
 ; empty-stack = [ø]
-; (push v [v1,v2,v3...]) =[v,v1,v2,v3...]
-; (pop [v1,v2,v3...]) = [v2,v3...]
+; (push v [s]) =[v.s]
+; (pop [v.s]) = [s]
 ; observers:
-; (top [v1,v2,v3...]) = [v1]
+; (top [v.s]) = [v]
 ; (empty-stack? s) = #t if s =[ø],else #f
 
 ; Exercise 2.5
