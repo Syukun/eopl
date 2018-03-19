@@ -24,8 +24,6 @@
                   (if (eqv? var search-var) #t
                       (has-binding? body-env search-var))))))
 
-;; Problem : How to write test??
-
 ; Exercise 2.22
 ; Stack data type
 (define-datatype stack stack?
